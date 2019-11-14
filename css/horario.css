@@ -1,0 +1,63 @@
+body{
+    color: white;
+    background-color:blue;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+table, h2{
+    color: red;
+    border: 3px solid red;
+    border-collapse: collapse;
+    text-align: center
+}
+
+td, tr, th{
+    color: white;
+    border: 3px solid red;
+    border-collapse: collapse;
+    text-align: center
+}
+
+.adultos{
+    color:black;
+    background-color: aliceblue;
+}
+
+.horario{
+    background-color: yellow;
+}
+
+.sparring{
+    color: red;
+    background-color: black;
+}
+
+.boxeo{
+    background-color: chartreuse;
+}
+
+.mma{
+    background-color: coral;
+}
+
+.judo{
+    background-color: mediumspringgreen;
+}
+
+.minf{
+    background-color: green;
+}
+
+.kinf{
+    background-color: orange;
+}
+
+.hora{
+    background-color: yellow;
+    color: black;
+}
+
+.dia{
+    background-color: yellow;
+    color: black;
+}
