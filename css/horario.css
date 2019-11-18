@@ -30,6 +30,7 @@ td, tr, th{
 .sparring{
     color: red;
     background-color: black;
+    style: strike;
 }
 
 .boxeo{
@@ -60,4 +61,12 @@ td, tr, th{
 .dia{
     background-color: yellow;
     color: black;
+}
+
+caption{
+    font-size: 40px
+}
+
+a{
+    color: white;
 }
