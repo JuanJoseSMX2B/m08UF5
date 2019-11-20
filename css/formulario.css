@@ -1,0 +1,17 @@
+body{
+    background-color: yellow;
+}
+
+fieldset{
+    size: 80px;
+}
+
+legend{
+    font-size: 26px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.datos{
+    color: firebrick;
+}
