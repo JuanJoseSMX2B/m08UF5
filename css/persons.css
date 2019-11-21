@@ -1,0 +1,59 @@
+body{
+    text-align: center;
+}
+
+table{
+    height: 2px;
+    border: 3px solid black;
+    margin: auto;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 62px;
+    text-decoration: underline;
+}
+
+th{
+    border: 2px solid black;
+}
+
+.t1{
+    font-family: 'Calistoga', cursive;
+    background-color: lightblue;
+}
+
+.t2{
+    font-family: 'Odibee Sans', cursive;
+    background-color: lightgreen;
+}
+
+.t3{
+    font-family: 'Roboto Mono', monospace;
+    background-color: lightgoldenrodyellow;
+}
+
+.t4{
+    font-family: 'Baskervville', serif;
+    background-color: lightcyan;
+}
+
+#p1{
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 42px;
+}
+
+#text{
+    width: 600px;
+}
+
+.img{
+    width: 500px;
+    height: 400px;
+}
+
+.video{
+    width: 500px;
+    height: 350px;
+}
