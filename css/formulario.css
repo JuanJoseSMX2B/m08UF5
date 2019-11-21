@@ -1,5 +1,5 @@
 body{
-    background-color: yellow;
+    background-color: lightcyan;
 }
 
 fieldset{
@@ -14,4 +14,36 @@ legend{
 
 .datos{
     color: firebrick;
+}
+
+.tipo{
+    color: blue;
+}
+
+.estilo{
+    color: green;
+}
+
+.horario{
+    color: black;
+}
+
+.cuadro{
+    background-color: white;
+}
+
+.cuadro1{
+    background-color: orange;
+}
+
+.cuadro2{
+    background-color: cyan;
+}
+
+.cuadro3{
+    background-color: greenyellow;
+}
+
+.cuadro4{
+    background-color: red;
 }
