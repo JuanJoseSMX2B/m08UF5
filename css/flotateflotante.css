@@ -1,0 +1,93 @@
+#divglobal{
+    border: 1px solid black;
+    width: 600px;
+    height: 600px;
+}
+
+div{
+    border: 1px solid white;
+}
+
+#div1{
+    width: 66.25%;
+    height: 16%;
+    background-color: green;
+    float: left;
+}
+
+#div2{
+    width: 33%;
+    height: 16%;
+    background-color: greenyellow;
+    float: right;
+}
+
+#div3{
+    width: 33%;
+    height: 33%;
+    float: left;
+    background-color: black;
+}
+
+#div4{
+    height: 33%;
+    width: 33%;
+    float: left;
+    background-color: chartreuse;
+}
+
+#div5{
+    width: 33%;
+    height: 16%;
+    background-color: darkgreen;
+    float: right;
+}
+
+#div6{
+    width: 33%;
+    height: 16.5%;
+    background-color: greenyellow;
+    float: right;
+}
+
+#div7{
+    width: 66.25%;
+    height: 16%;
+    background-color: darkgreen;
+    float: left;
+}
+
+#div8{
+    height: 32.5%;
+    width: 33%;
+    float: right;
+    background-color: black;
+}
+
+#div9{
+    width: 66.25%;
+    height: 16.1%;
+    background-color: greenyellow;
+    float: left;
+}
+
+#div10{
+    width: 33%;
+    height: 17%;
+    background-color: darkgreen;
+    float: left;
+}
+
+#div11{
+    width: 33%;
+    height: 17%;
+    background-color: greenyellow;
+    float: left;
+}
+
+#div12{
+    width: 33%;
+    height: 17%;
+    background-color: darkgreen;
+    float: right;
+}
