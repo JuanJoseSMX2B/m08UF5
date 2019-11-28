@@ -13,7 +13,7 @@ div{
     width: 397px;
     height: 97px;
     background-color: green;
-    position: absolute;
+    position: absolute left;
     
 }
 
@@ -22,3 +22,92 @@ div{
     height: 97px;
     background-color: greenyellow;
     position: absolute;
+    left: 400px;
+    top: 0px;
+}
+
+#div3{
+    width: 197px;
+    height: 197px;
+    position: absolute;
+    background-color: black;
+}
+
+#div4{
+    width: 199px;
+    height: 298px;
+    background-color: darkgreen;
+    position: absolute;
+    left: 198px;
+}
+
+#div5{
+    width: 198px;
+    height: 97px;
+    background-color: darkgreen;
+    position: absolute;
+    left: 399px;
+}
+
+#div6{
+    width: 198px;
+    height: 97px;
+    background-color: greenyellow;
+    position: absolute;
+    left: 399px;
+    top: 198px;
+}
+
+#div8{
+    width: 197px;
+    height: 100px;
+    background-color: darkgreen;
+    position: absolute;
+    left: 0px;
+    top: 297px
+}
+
+#div9{
+    width: 198px;
+    height: 199px;
+    position: absolute;
+    left: 399px;
+    top: 297px;
+    background-color: black;
+}
+
+#div10{
+    width: 197px;
+    height: 199px;
+    position: absolute;
+    left: 0px;
+    top: 397px;
+    background-color: black;
+}
+
+#div11{
+    width: 199px;
+    height: 99px;
+    background-color: greenyellow;
+    position: absolute;
+    top: 399px;
+    left: 198px;
+}
+
+#div12{
+    width: 199px;
+    height: 98px;
+    background-color: greenyellow;
+    position: absolute;
+    top: 499px;
+    left: 198px;
+}
+
+#div7{
+    width: 199px;
+    height: 98px;
+    background-color: greenyellow;
+    position: absolute;
+    top: 499px;
+    left: 399px;
+}

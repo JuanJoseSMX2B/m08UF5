@@ -1,0 +1,149 @@
+div{
+    border: 1px solid white;
+}
+
+#divglobal{
+    width: 600px;
+    height: 600px;
+    border: 1px solid black;
+    position: relative;
+}
+
+.interior:hover{
+    opacity: 0.5;
+    border: 5px solid green;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.mb{
+    margin-bottom: 3px;
+    margin-top: 3px;
+}
+
+#div1{
+    width: 397px;
+    height: 97px;
+    position: absolute left;
+    background-image: url(../imatges/thai1.jpg);
+    background-repeat: no-repeat;
+    background-size: 397px 97px;
+    
+}
+
+#div2{
+    width: 197px;
+    height: 97px;
+    position: absolute;
+    left: 400px;
+    top: 0px;
+    background-image: url(../imatges/thai2.jpg);
+    background-repeat: no-repeat;
+    background-size: 197px 97px;
+}
+
+#div3{
+    width: 197px;
+    height: 197px;
+    position: absolute;
+    background-image: url(../imatges/thai3.jpeg);
+    background-repeat: no-repeat;
+    background-size: 197px 197px;
+}
+
+#div4{
+    width: 199px;
+    height: 298px;
+    position: absolute;
+    left: 198px;
+    background-image: url(../imatges/thai4.jpg);
+    background-repeat: no-repeat;
+    background-size: 199px 298px;
+}
+
+#div5{
+    width: 198px;
+    height: 97px;
+    position: absolute;
+    left: 399px;
+    background-image: url(../imatges/thai5.jpg);
+    background-repeat: no-repeat;
+    background-size: 198px 97px;
+}
+
+#div6{
+    width: 198px;
+    height: 97px;
+    position: absolute;
+    left: 399px;
+    top: 198px;
+    background-image: url(../imatges/thai6.gif);
+    background-repeat: no-repeat;
+    background-size: 198px 97px;
+}
+
+#div8{
+    width: 197px;
+    height: 100px;
+    position: absolute;
+    left: 0px;
+    top: 297px;
+    background-image: url(../imatges/thai7.webp);
+    background-repeat: no-repeat;
+    background-size: 197px 100px;
+}
+
+#div9{
+    width: 198px;
+    height: 199px;
+    position: absolute;
+    left: 399px;
+    top: 297px;
+    background-image: url(../imatges/thai8.jpg);
+    background-repeat: no-repeat;
+    background-size: 198px 199px;
+}
+
+#div10{
+    width: 197px;
+    height: 199px;
+    position: absolute;
+    left: 0px;
+    top: 397px;
+    background-image: url(../imatges/thai7.jpg);
+    background-repeat: no-repeat;
+    background-size: 197px 199px;
+}
+
+#div11{
+    width: 199px;
+    height: 99px;
+    position: absolute;
+    top: 399px;
+    left: 198px;
+    background-image: url(../imatges/thai9.webp);
+    background-repeat: no-repeat;
+    background-size: 199px 99px;
+}
+
+#div12{
+    width: 199px;
+    height: 98px;
+    position: absolute;
+    top: 499px;
+    left: 198px;
+    background-image: url(../imatges/thai10.jpg);
+    background-repeat: no-repeat;
+    background-size: 199px 98px;
+}
+
+#div7{
+    width: 199px;
+    height: 98px;
+    position: absolute;
+    top: 499px;
+    left: 399px;
+    background-image: url(../imatges/thai11.gif);
+    background-repeat: no-repeat;
+    background-size: 199px 98px;
+}
