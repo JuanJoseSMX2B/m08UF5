@@ -1,0 +1,85 @@
+#divcab{
+    color: aliceblue;
+    border: 5px solid black;
+    background-image: url("../imatges/thai11.gif");
+    background-repeat: no-repeat;
+    background-size: 1893px 122px;
+    width: 100%;
+    top: 0%;
+}
+
+#logo{
+    width: 115px;
+    height: 115px;
+    position: absolute;
+    top: 16px;
+    left: 15px;
+}
+
+#logo2{
+    width: 115px;
+    height: 115px;
+    position: absolute;
+    top: 16px;
+    right: 15px;
+}
+
+#titulo{
+    text-align: center;
+    font-size: 24px;
+}
+
+#divindex{
+    border: 5px solid black;
+    background-color: lightblue;
+    position: absolute;
+    width: 27%;
+    height: 100%;
+    
+}
+
+#divbanner{
+    border: 5px solid black;
+    background-color: lightblue;
+    position: absolute;
+    right: 0px;
+    width: 19%;
+    height: 100%;
+}
+
+#divtexto{
+    border: 5px solid black;
+    background-color: antiquewhite;
+    position: absolute;
+    left: 200px;
+    right: 1000px;
+    width: 70%;
+    height: 100%;
+    font-size: 22px;
+}
+
+#imgbanner{
+    position: absolute;
+    width: 70%;
+    height: 50%;
+    left: -6%;
+    top: 25%;
+}
+
+#divinf{
+    border: 5px solid black;
+    background-image: url("../imatges/thai11.gif");
+    background-repeat: no-repeat;
+    background-size: 1893px 122px;
+    position: absolute;
+    width: 100%;
+    height: 120px;
+    top: 980px;
+}
+
+#imgv{
+    width: 600px;
+    height: 95px;
+    position: absolute;
+    left: 30%;
+}
