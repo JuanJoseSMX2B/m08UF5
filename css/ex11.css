@@ -1,0 +1,105 @@
+#div1 {
+    border-radius: 25px;
+    background: #73AD21;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+}
+
+#div2 {
+    border-radius: 25px 50px 25px 50px;
+    background: lightskyblue;
+    border: 2px solid #73AD21;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+}
+  
+#div3 {
+    border-radius: 275px 45px 87px 500px;
+    background: url('../imatges/thai11.gif')
+    background-position: left top;
+    background-repeat: repeat;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+    border: 2px solid black;
+}
+
+#div4{
+    border-radius: 15px / 50px;
+    background: #73AD21;
+    padding: 20px;
+    width: 200px;
+    height: 150px; 
+}
+
+#div5{
+    background-color: rgba(255, 0, 0, 0.2);
+}
+
+#div6{
+    background-color: rgba(255, 0, 0, 0.4);
+}
+
+#div7{
+    background-color: rgba(255, 0, 0, 0.6);
+}
+
+#div8{
+    background-color: rgba(255, 0, 0, 0.8);
+}
+
+#div9{
+    background-image: linear-gradient(red, yellow);
+    height: 100px;
+}
+
+#div10{
+    background-image: linear-gradient(to right, red , yellow);
+    height: 100px;
+}
+
+#div11{
+    background-image: radial-gradient(red, yellow, green);
+    width: 300px;
+    height: 300px;
+}
+
+#div12{
+    text-shadow: 2px 2px;
+}
+
+#div13{
+    text-shadow: 2px 2px 5px red;
+}
+
+#div14{
+    background: yellow;
+    box-shadow: 10px 10px;
+    width: 250px;
+    height: 100px;
+}
+
+#div15{
+    background: yellow;
+    box-shadow: 10px 10px 5px gray;
+    width: 250px;
+    height: 100px;
+}
+
+#div16{
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+
+@font-face{
+    font-family: Letra1;
+    src: url(../letras/disney.otf);
+}
+
+#div9, #div10, #div11{
+    font-size: 70px;
+    font-family: Letra1;
+}
