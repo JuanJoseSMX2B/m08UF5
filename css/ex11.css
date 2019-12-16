@@ -58,6 +58,7 @@
 #div10{
     background-image: linear-gradient(to right, red , yellow);
     height: 100px;
+    transform: rotate(30deg);
 }
 
 #div11{
@@ -103,3 +104,70 @@
     font-size: 70px;
     font-family: Letra1;
 }
+
+#div17{
+    background-color: red;
+    border: 1px solid black;
+    width: 250px;
+    height: 250px;
+    transform: translate(50px, 100px);
+}
+
+#div18{
+    background-color: red;
+    border: 1px solid black;
+    width: 250px;
+    height: 250px;
+    transform: rotate(20deg);
+}
+
+#div19{
+    background-color: red;
+    border: 1px solid black;
+    width: 250px;
+    height: 250px;
+    transform: scale(1, 1);
+}
+
+#div20{
+    background-color: yellow;
+    width: 300px;
+    height: 100px;
+}
+
+#div20:hover{
+    width: 100px;
+    height: 100px;
+    background: green;
+    -webkit-transition: width 1s;
+    transition: width 1s;
+}
+
+#div21{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: red;
+    animation-name: animacion;
+    animation-duration: 4s;
+    animation-iteration-count: 3
+}
+
+@-webkit-keyframes animacion{
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
+
+#div22{
+    column-count: 3;
+    border: 1px solid black;
+    column-rule-style: solid;
+    column-rule-color: lightblue;
+    column-rule-width: 1px; 
+}
+
+
+
