@@ -1,0 +1,51 @@
+#divgeneral{
+	width:830px;
+	position:relative;
+	background-color: lightgoldenrodyellow;
+}
+
+#imgsirius{
+	float:left;
+	margin-left:20px;
+}
+
+#left{
+	float:left;
+	width:170px;
+	margin-left:20px;
+}
+
+#centro{
+	float:left;	
+}
+
+#right{
+	float:right;
+	width:170px;
+	margin-left:8px;
+}
+	
+#gifsirius{
+	width:440px;
+	height:400px;
+}
+
+main{
+    overflow:hidden;
+    border: black 3px solid;
+}
+
+#inferior{
+	margin-left:20px;
+	margin-right:40px;
+}
+
+hr{ 
+    border: 2px solid black;
+    margin-right:40px;
+}
+
+footer{
+	clear:both;
+	border-top: 2px solid black
+}
