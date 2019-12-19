@@ -1,0 +1,230 @@
+table, tr, td, th{
+    border: 3px solid black;
+    border-collapse: collapse;
+}
+
+th{
+    background-color: lightslategray;
+}
+
+td{
+    width: 250px;
+    height: 250px;
+}
+
+#imgc1{
+    width: 248px;
+    height: 240px;
+}
+
+#imgc2{
+    width: 248px;
+    height: 240px;
+}
+
+#imgc3{
+    width: 248px;
+    height: 240px;
+}
+
+#imgc4{
+    width: 248px;
+    height: 240px;
+}
+
+/*Aqui empieza la img 1*/
+
+@import "lesshat";
+
+.container{   
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;;
+}
+
+.div-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+    .div-img.hidden{
+          overflow: hidden;
+      }     
+    .img:hover{
+        
+            transform:scale(1);
+            -ms-transform:scale(1); /* IE 9 */
+            -moz-transform:scale(1); /* Firefox */
+            -webkit-transform:scale(1); /* Safari and Chrome */
+            -o-transform:scale(1); /* Opera*/
+        }
+.img{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;   
+    transform:scale(1.2);
+    -ms-transform:scale(1.2); /* IE 9 */
+    -moz-transform:scale(1.2); /* Firefox*/ 
+    -webkit-transform:scale(1.2); /* Safari and Chrome*/ 
+    -o-transform:scale(1.2); /* Opera */
+    -webkit-transition: all 500ms ease-in-out; /* IE 9*/
+    -moz-transition: all 500ms ease-in-out; /* Firefox*/
+    -ms-transition: all 500ms ease-in-out; /* Safari and Chrome */
+    -o-transition: all 500ms ease-in-out; /* Opera   */    
+}   
+
+/*Aqui acaba la img 1*/
+
+/*Aqui empieza la img 2*/
+
+@import "lesshat";
+
+.container2{   
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.div-img2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.div-img2.hidden2{     
+    overflow: hidden;
+}
+
+.img2{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;   
+    transform:scale(1);
+    -ms-transform:scale(1); /* IE 9 */
+    -moz-transform:scale(1); /* Firefox*/ 
+    -webkit-transform:scale(1); /* Safari and Chrome */
+    -o-transform:scale(1); /* Opera */
+    -webkit-transition: all 500ms ease-in-out; /* IE 9*/
+    -moz-transition: all 500ms ease-in-out; /* Firefox*/
+    -ms-transition: all 500ms ease-in-out; /* Safari and Chrome */
+    -o-transition: all 500ms ease-in-out; /* Opera       */
+    }
+
+    .img2:hover{
+        
+        transform:scale(1.2);
+        -ms-transform:scale(1.2); /* IE 9 */
+        -moz-transform:scale(1.2); /* Firefox*/ 
+        -webkit-transform:scale(1.2); /* Safari and Chrome */
+        -o-transform:scale(1.2); /* Opera*/
+    }
+
+/*Aqui acaba la img 2*/
+
+/*Aqui empieza la img 3*/
+
+@import "lesshat";
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+.container3{   
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.div-img3{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+    .img3{
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;   
+        transform:scale(1);
+        -ms-transform:scale(1); /* IE 9 */
+        -moz-transform:scale(1); /* Firefox */
+        -webkit-transform:scale(1); /* Safari and Chrome */
+        -o-transform:scale(1); /* Opera */
+        -webkit-transition: all 500ms ease-in-out; /* IE 9*/
+        -moz-transition: all 500ms ease-in-out; /* Firefox*/
+        -ms-transition: all 500ms ease-in-out; /* Safari and Chrome */
+        -o-transition: all 500ms ease-in-out; /* Opera  */     
+    }      
+    .text{
+        font-family: 'Open Sans';
+        padding-top: 5px;
+        display:block;
+        text-align: center;
+        width: 100%;   
+        transform:translate(0px);
+        -webkit-transition: all 500ms ease-in-out;
+        -moz-transition: all 500ms ease-in-out;
+        -ms-transition: all 500ms ease-in-out;
+        -o-transition: all 500ms ease-in-out;
+        opacity: 0;
+        transition: 1s;
+    }
+
+    .img3:hover{
+            transform:scale(0.8);
+            -ms-transform:scale(0.8); /* IE 9 */
+            -moz-transform:scale(0.8); /* Firefox */
+            -webkit-transform:scale(0.8); /* Safari and Chrome */
+            -o-transform:scale(0.8); /* Opera*/
+    }
+    
+    .img3:hover ~ .text{
+            transform:translate(0px,-20px);
+            opacity: 1;
+            
+    }
+
+/*Aqui acaba la img 3*/
+
+/*Aqui empieza la img 4*/
+
+@import "lesshat";
+
+.container4{   
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.div-img4{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+}
+
+    .div-img4.hidden4{
+      overflow:hidden;
+    }
+    .img4{
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 400px;
+        height: 200px;           
+        margin-left: 0px;
+        -webkit-transition: margin 1s ease;
+        -moz-transition: margin 1s ease;
+        -o-transition: margin 1s ease;
+        -ms-transition: margin 1s ease;
+        transition: margin 1s ease;   
+    }      
+    .img4:hover{
+           margin-left: -200px;   
+        }
+
+/*Aqui acaba la img 4*/
