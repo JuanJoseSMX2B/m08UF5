@@ -1,34 +1,47 @@
 .c1{
-    border: 1px solid black;
+    border: 2px solid white;
     background-color: green;
 }
 
 .c2{
-    border: 1px solid black;
+    border: 2px solid white;
     background-color: red;    
 }
 
 .c2-1{
-    border: 1px solid black;
-    background-color: purple;
+    border: 2px solid white;
+    
 }
 
 .c3{
-    border: 1px solid black;
-    background-color: red;
+    border: 2px solid white;
+    background-color: purple;
 }
 
 .c3-1{
-    border: 1px solid black;
+    border: 2px solid white;
     background-color: sandybrown;
 }
 
-.c4{
-    border: 1px solid black;
-    background-color: red;
+.c-3{
+    border: 2px solid white;
+    background-color: purple;
 }
 
-.c4-1{
-    border: 1px solid black;
+.c-4{
+    height: 150px;
+    border: 2px solid white;
     background-color: sandybrown;
+}
+
+.c-5{
+    height: 150px;
+    border: 2px solid white;
+    background-color: sandybrown;
+}
+
+.c-6{
+    height: 75px;
+    border: 2px solid white;
+    background-color: blue;
 }
