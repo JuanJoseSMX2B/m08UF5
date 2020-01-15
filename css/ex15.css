@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.titulo{
+    background-color: greenyellow;
+    font-size: 40px;
+}
+
+.columna1{
+    float: left;
+    width: 30%;
+    background-color: lightblue;
+}
+
+.columna2{
+    float: left;
+    width: 70%;
+    background-color: aliceblue;
+}
+
+h1{
+    font-size: 100px;
+}
+
+p{
+    font-size: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    
+    .columna1{
+        width: 100%;
+    }
+
+    .columna2{
+        width: 100%;
+    }
+
+    h1{
+        font-size: 35px;
+    }
+
+    p{
+        font-size: 15px;
+    }
+}
