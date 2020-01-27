@@ -5,7 +5,6 @@ body{
 
 .cabezera{
     color: black;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     border: 1px solid black;
     background-color: gray;
     width: 102.7%;
@@ -25,7 +24,7 @@ body{
 }
 
 .titulo h1{
-    margin-top: 5px;
+    margin-top: -15px;
     margin-left: -80px;
     text-align: center;
     font-size: 5vw;
@@ -84,3 +83,13 @@ body{
 }   
 
 /*Aqui acaba la img del logo*/
+
+@font-face{
+    font-family: Letra1;
+    src: url(../letras/disney.otf);
+}
+
+#titulo{
+    font-size: 160px;
+    font-family: Letra1;
+}
